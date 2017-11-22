@@ -1,3 +1,77 @@
-/*
- * Estilos de tu proyecto
- */
+ header {
+   background: #1B1133;
+   width: 100%;
+   color: #ffffff;
+   font-family: "Montserrat"
+}
+
+ header > .menu-container {
+   position: fixed;
+   margin-top: 10px;
+   margin-bottom: 0px;
+   margin-left: 10px;
+   margin-right: 0px;
+ }
+
+.menu-container {
+
+  color: white;
+ font-family: "Montserrat"
+}
+
+.hero-text {
+position: relative;
+  margin-left: 650px;
+  margin-top: -300px;
+  color: #1B1133;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+ .hero-text2 {
+margin-left: 650px;
+margin-top: 50px;
+color: #1B1133;
+font-family: "Montserrat";
+font-size: 15px;
+font-weight: bolder;
+}
+
+.imagen {
+margin-top: 0px;
+margin-left: 15px;
+}
+
+#seccion-1 {
+  text-align: right;
+  color: white;
+  height: 200px;
+  margin-bottom: 0;
+  margin: 20px 40px;
+  font-weight: 700px;
+  font-family: "Montserrat"
+}
+
+body {
+
+}
+
+.my_button {
+  position: absolute;
+margin-left: 900px;
+margin-top: 5px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 60;
+    font-size: 17px;
+    color: #ffffff;
+    background-color: #1B1133;
+    border-radius: 6px;
+    border: 2px solid #ffffff;
+}
+
+  .my_button:hover {
+     color: #18BC9C;
+     background-color: #ffffff;
+   }
